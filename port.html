@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rittik Singh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rittik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">Past Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Hi, My name is <span class="purple">Rittik</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection"><img src="bg.png" alt="Background Image"></div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="book.png" alt="Book Icon" class="image-top">
+                    <div class="vertical-title">Content Developer (2021-2022)</div>
+                    <div class="vertical-desc">I worked at the educational institute where I studied, and I secured an
+                        internship as a Content Developer. In this role, I sorted and refined study materials using MS
+                        Word, and occasionally used Excel for minor tasks.</div>
+                </div>
+                <div class="vertical">
+                    <img src="videoeditor.png" alt="Video Editor Icon" class="image-top">
+                    <div class="vertical-title">Video Editor (2021-2021)</div>
+                    <div class="vertical-desc">I briefly worked as a Video Editor for a startup, creating 3-4 videos
+                        using Filmora. Despite completing the projects, they were not published, and I received no
+                        feedback. After discussing the situation with my mentor, I decided to leave the role.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>Rittik's Developer Portfolio</h3>
+            </div>
+            <div>
+                <section class="contact" id="contact">
+                    <div class="container">
+                        <h2>Contact</h2>
+                        <p><strong>Email:</strong> <a href="mailto:rittikksingh@gmail.com">rittikksingh@gmail.com</a>
+                        </p>
+                        <div class="contact-icons">
+                            <a href="https://www.linkedin.com/in/rittik-singh/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/rittik-singh" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com/rittikksingh" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/rittiks_18" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/rittiks_17" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.rittikportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
